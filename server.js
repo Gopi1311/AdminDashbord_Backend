@@ -10,8 +10,9 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "*",
+    origin: "https://admindashbord03.netlify.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
+    credentials:true,
   })
 );
 
