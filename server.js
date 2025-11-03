@@ -12,6 +12,7 @@ app.use(express.json());
 const allowedOrigins = [
   "https://admindashbord03.netlify.app",
   "http://localhost:3000",
+  "https://admindashbord-frontend.onrender.com"
 ];
 
 const corsOptions = {
